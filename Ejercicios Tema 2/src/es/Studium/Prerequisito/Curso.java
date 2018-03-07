@@ -5,7 +5,7 @@ public class Curso {
 		private int idAula;
 		private String fechainicio;
 		private String fechafin;
-		
+		//Este es el primer cambio que se tiene que ver desde el repositorio online
 			public Curso ()
 			{
 				idCurso=0;
