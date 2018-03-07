@@ -3,7 +3,7 @@ package es.Studium.Prerequisito;
 public class Colegio {
 
 
-	
+	//Este comentario te lo dedico ruugarcia97
 		private int idColegio;
 		private String nombrecolegio;
 	
