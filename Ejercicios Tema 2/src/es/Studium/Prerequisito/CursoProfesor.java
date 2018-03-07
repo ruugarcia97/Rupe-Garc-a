@@ -2,9 +2,10 @@ package es.Studium.Prerequisito;
 
 public class CursoProfesor {
 
-
+	
 	private int idCurso;
 	private int idProfesor;
+	
 	
 	public CursoProfesor()
 	{
@@ -16,6 +17,7 @@ public class CursoProfesor {
 		idCurso=c;
 		idProfesor=p;
 	}
+	//Getters y Setters
 	public void setidCurso(int c)
 	{
 		idCurso=c;
