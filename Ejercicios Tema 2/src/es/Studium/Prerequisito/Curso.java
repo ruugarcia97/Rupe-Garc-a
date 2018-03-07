@@ -5,7 +5,7 @@ public class Curso {
 		private int idAula;
 		private String fechainicio;
 		private String fechafin;
-		//Este es el primer cambio que se tiene que ver desde el repositorio online
+		//Este es el primer cambio que se tiene que ver desde el repositorio online para la practica de entorno de desarrollo.
 			public Curso ()
 			{
 				idCurso=0;
