@@ -26,7 +26,7 @@ public class Curso {
 			{
 				idCurso= C;
             }
-				 
+			//este es el segundo cambio de entorno pero ahora al reves desde el repositorio a local	 
 			public int getCurso() 
 
 			{
