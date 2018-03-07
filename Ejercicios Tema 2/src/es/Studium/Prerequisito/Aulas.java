@@ -4,19 +4,22 @@ public class Aulas {
 	
 	private int idAulas;
 	private int numeroaulas;
+	private String nombreAulas;
 	private Colegio colegio;
-	//Este comentario t lo dedico ruugarcia97
+	
 	
 
 	public Aulas() {
 		idAulas=0;
 		colegio= new Colegio ();
+		nombreAulas="";
 	    numeroaulas=0;
 	}
 	
-	public Aulas (int a, int na, Colegio c)
+	public Aulas (int a, int na, string n, Colegio c)
 	{
 		idAulas= a;
+		nombreAulas="";
 		numeroaulas= na;	
 		setColegio(c); 
 		// colegio = c;
@@ -49,7 +52,15 @@ public class Aulas {
 	{
 		return colegio; 
 	}
+	public void setNombreAulas (NombreAulas n)
+	{
+		NombreAulas=n;
+	}
 	
+	public Colegio getNombreAulas () 
+	{
+		return NombreAulas; 
+	}
 	
 
 
