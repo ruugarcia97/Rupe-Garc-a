@@ -5,7 +5,7 @@ public class Aulas {
 	private int idAulas;
 	private int numeroaulas;
 	private Colegio colegio;
-	
+	//Este comentario t lo dedico ruugarcia97
 	
 
 	public Aulas() {
